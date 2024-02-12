@@ -31,3 +31,27 @@ The actors expose a set of parameters on the editor that can be parametrized:
 * Dataset Path: The path to which the dataset will be exported.
 
 ![example_parameters](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/91cf0643-e030-46d4-a041-99af511df97b)
+
+# Python Scripts
+
+We provide a python script to further preprocess the data and make them compatible with Enhanching Photorealism Enhancment. For that particular use case we recommend to extract the dataset with the `dataset_generator_one_hot` actor. Then execute the `epe_preprocess.py` script with the following command:
+
+```javascript
+python epe_preprocess.py --input_path <path-to>/UE5Dataset --output_path <path-to>/ --gbuffers ['SceneColor','SceneDepth','WorldNormal','Metallic','Specular','Roughness','BaseColor','SubsurfaceColor'] --gbuffers_grayscale ['SceneDepth','Metallic','Specular','Roughness']
+```
+To detect the semantic classes for the case of the  `dataset_generator` actor execute the following command for a sample semantic segmentation image:
+
+```javascript
+python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
+```
+
+> ⚠️ **Warning**: `dataset_generator` currently supports only 8 semantic classes ([1,0,0],[1,1,0],[1,1,1],[1,0,1],[0,1,1],[0,1,0],[0,0,1],[0,0,0]).
+
+# Data Examples
+
+![image](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/76a048af-6127-479b-b4e3-52f93f9b2d77)
+
+# Unreal Engine 5 Enhancement Photorealism Enhancement Examples
+
+![image](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/0aab2f68-120c-42d3-bf8f-04213baa0719)
+

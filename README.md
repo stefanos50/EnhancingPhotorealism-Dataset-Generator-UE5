@@ -3,7 +3,7 @@
 ## Objective
 The primary aim of this project is to generate a compatible dataset for training or testing the [**Enhancing Photorealism Enhancement**](https://github.com/isl-org/PhotorealismEnhancement) project developed by Intel Labs that utilizes the intermediate G-Buffers of the engine to enhance the photorealism of synthetic data. The project also provides a component to export a general dataset for semantic segmentation tasks.
 
-# Installitation/Requirements
+## Installitation/Requirements
 
 The project was developed with Unreal Engine 5 version 5.3.2 on Windows 11 and can be executed by running the EPE.uproject after installing an Engine Version from the EPIC games launcher. The dataset extractor components and post-process materials can be integrated into any existing project by moving the `\Content\DatasetExtraction` directory to the `\Content\` directory of another Unreal Engine project.
 
@@ -11,7 +11,7 @@ To extract semantic information, Unreal Engine utilizes the Custom Stencil Buffe
 
 To set a unique class for an object or a set of objects in the scene in the details, search for `Render CustomDepth Pass` and enable it. Then, search for `CustomDepth Stencil Value` and define the desired integral ID.
 
-# Unreal Engine Actors/Components
+## Unreal Engine Actors/Components
 
 We provide two actors that can be placed in any location of the world to start extracting a synthetic dataset.
 
@@ -32,7 +32,7 @@ The actors expose a set of parameters on the editor that can be parametrized:
 
 ![example_parameters](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/91cf0643-e030-46d4-a041-99af511df97b)
 
-# Python Scripts
+## Python Scripts
 
 We provide a Python script to further preprocess the data and make it compatible with Enhancing Photorealism Enhancement. For that particular use case, we recommend extracting the dataset with the `dataset_generator_one_hot` actor. Then execute the `epe_preprocess.py` script with the following command:
 
@@ -47,7 +47,7 @@ python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
 
 > ⚠️ **Warning**: `dataset_generator` currently supports only 8 semantic classes ([1,0,0],[1,1,0],[1,1,1],[1,0,1],[0,1,1],[0,1,0],[0,0,1],[0,0,0]).
 
-# Data Examples
+## Data Examples
 
 ![image](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/76a048af-6127-479b-b4e3-52f93f9b2d77)
 

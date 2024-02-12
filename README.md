@@ -34,12 +34,12 @@ The actors expose a set of parameters on the editor that can be parametrized:
 
 # Python Scripts
 
-We provide a python script to further preprocess the data and make them compatible with Enhanching Photorealism Enhancment. For that particular use case we recommend to extract the dataset with the `dataset_generator_one_hot` actor. Then execute the `epe_preprocess.py` script with the following command:
+We provide a Python script to further preprocess the data and make it compatible with Enhancing Photorealism Enhancement. For that particular use case, we recommend extracting the dataset with the `dataset_generator_one_hot` actor. Then execute the `epe_preprocess.py` script with the following command:
 
 ```javascript
 python epe_preprocess.py --input_path <path-to>/UE5Dataset --output_path <path-to>/ --gbuffers ['SceneColor','SceneDepth','WorldNormal','Metallic','Specular','Roughness','BaseColor','SubsurfaceColor'] --gbuffers_grayscale ['SceneDepth','Metallic','Specular','Roughness']
 ```
-To detect the semantic classes for the case of the  `dataset_generator` actor execute the following command for a sample semantic segmentation image:
+To detect the semantic classes in the case of the  `dataset_generator` actor, execute the following command for a sample semantic segmentation image:
 
 ```javascript
 python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500

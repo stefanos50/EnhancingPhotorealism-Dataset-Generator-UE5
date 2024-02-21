@@ -34,7 +34,7 @@ The actors expose a set of parameters on the editor that can be parameterized:
 
 ## Python Scripts
 
-We provide a Python script to further preprocess the data and make it compatible with Enhancing Photorealism Enhancement. For that particular use case, we recommend extracting the dataset with the `dataset_generator_one_hot` actor. Then execute the `epe_preprocess.py` script with the following command:
+We provide a Python script to further preprocess the data and make them compatible with Enhancing Photorealism Enhancement. For that particular use case, we recommend extracting the dataset with the `dataset_generator_one_hot` actor. Then execute the `epe_preprocess.py` script with the following command:
 
 ```javascript
 python epe_preprocess.py --input_path <path-to>/UE5Dataset --output_path <path-to>/ --gbuffers ['SceneColor','SceneDepth','WorldNormal','Metallic','Specular','Roughness','BaseColor','SubsurfaceColor'] --gbuffers_grayscale ['SceneDepth','Metallic','Specular','Roughness']

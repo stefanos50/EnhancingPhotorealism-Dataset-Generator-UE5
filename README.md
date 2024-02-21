@@ -18,7 +18,7 @@ We provide two actors that can be placed in any location of the world to start e
 1) dataset_generator: Generates a dataset with a convensional colored semantic segmentation image/mask.
 2) dataset_generator_one_hot: Generates a dataset with one-hot-encoded semantic masks that are out of the box compatible with Enhancing Photorealism Enhancement.
 
-The actors expose a set of parameters on the editor that can be parametrized:
+The actors expose a set of parameters on the editor that can be parameterized:
 
 * ColorMatrix: The colors (RGB) for each semantic class.
 * MaxClasses: The maximum index of the available (defined) classes.

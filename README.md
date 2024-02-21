@@ -39,7 +39,7 @@ We provide a Python script to further preprocess the data and make them compatib
 ```javascript
 python epe_preprocess.py --input_path <path-to>/UE5Dataset --output_path <path-to>/ --gbuffers ['SceneColor','SceneDepth','WorldNormal','Metallic','Specular','Roughness','BaseColor','SubsurfaceColor'] --gbuffers_grayscale ['SceneDepth','Metallic','Specular','Roughness']
 ```
-To detect the semantic classes in the case of the  `dataset_generator` actor, execute the following command for a sample semantic segmentation image:
+To detect the semantic classes in the case of the  `dataset_generator` actor, execute the following command for a semantic segmentation sample:
 
 ```javascript
 python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500

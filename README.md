@@ -5,7 +5,7 @@ The primary aim of this project is to generate a compatible dataset for training
 
 ## Installitation/Requirements
 
-The project was developed with Unreal Engine 5 version 5.3.2 on Windows 11 and can be executed by running the EPE.uproject after installing an Engine Version from the EPIC games launcher. The dataset extractor components and post-process materials can be integrated into any existing project by moving the `\Content\DatasetExtraction` directory to the `\Content\` directory of another Unreal Engine project.
+The project was developed with Unreal Engine 5 version 5.3.2 on Windows 11 and can be executed by running the EPE.uproject after installing an Engine Version from the EPIC games launcher. The dataset extraction components and post-process materials can be integrated into any existing project by moving the `\Content\DatasetExtraction` directory to the `\Content\` directory of another Unreal Engine project.
 
 To extract semantic information, Unreal Engine utilizes the Custom Stencil Buffer. To enable this feature, search for `Custom Depth-Stencil Pass` in the project settings and set from the drop-down box the `Enabled with Stencil option`.
 

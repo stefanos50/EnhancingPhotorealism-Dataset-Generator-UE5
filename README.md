@@ -45,14 +45,15 @@ To detect the semantic classes in the case of the  `dataset_generator` actor, e
 python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
 ```
 
+
 > ⚠️ **Warning**: `dataset_generator` currently supports only 8 semantic classes ([1,0,0],[1,1,0],[1,1,1],[1,0,1],[0,1,1],[0,1,0],[0,0,1],[0,0,0]).
 
 ## Data Examples
 
 ![image](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/76a048af-6127-479b-b4e3-52f93f9b2d77)
 
-## Unreal Engine 5 Enhancing Photorealism Enhancement Example
+## Unreal Engine 5 Enhancing Photorealism Enhancement Examples
 
-![bloggif_65d63c082eb44](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/db40c8b7-a12c-45b5-ab29-513d22a0e301)
+![bloggif_65d63c082eb44](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/db40c8b7-a12c-45b5-ab29-513d22a0e301) ![bloggif_65d63d1caa554](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/d6ce82a0-e479-4691-99ec-bd73b3b6d968)
 
 

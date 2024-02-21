@@ -9,7 +9,7 @@ The project was developed with Unreal Engine 5 version 5.3.2 on Windows 11 and c
 
 To extract semantic information, Unreal Engine utilizes the Custom Stencil Buffer. To enable this feature, search for `Custom Depth-Stencil Pass` in the project settings and set from the drop-down box the `Enabled with Stencil option`.
 
-To set a unique class for an object or a set of objects in the scene in the details, search for `Render CustomDepth Pass` and enable it. Then, search for `CustomDepth Stencil Value` and define the desired integral ID.
+To set a unique class for an object or a set of objects in the scene in the details, search for `Render CustomDepth Pass` and enable it. Then, search for `CustomDepth Stencil Value` and define the desired ID (integer).
 
 ## Unreal Engine Actors/Components
 

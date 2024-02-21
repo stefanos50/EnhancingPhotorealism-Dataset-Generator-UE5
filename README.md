@@ -24,7 +24,7 @@ The actors expose a set of parameters on the editor that can be parameterized:
 * MaxClasses: The maximum index of the available (defined) classes.
 * width: The desired width of the exported (PNG) images.
 * height: The desired height of the exported (PNG) images.
-* Frame Counter: The index of the exported frames that the component will start counting from.
+* Frame Counter: The index that the component will start counting from.
 * Export GBuffers?: Whether the actor should also export all the GBuffers along with the rendered frame.
 * Capture Delay: The delay between each capture of the scene (this can be used to avoid data similarity).
 * Delay Between Captures: The delay between the different types of data in a single capture.

@@ -56,4 +56,21 @@ python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
 
 ![bloggif_65d63c082eb44](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/db40c8b7-a12c-45b5-ab29-513d22a0e301) ![bloggif_65d63d1caa554](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/d6ce82a0-e479-4691-99ec-bd73b3b6d968)
 
+### BibTeX Citation
+
+If you used the code of this repository in a scientific publication or thesis, we would appreciate using the following citation:
+
+```
+The thesis associated with this code has not yet been published. Please cite this repository if you use the code.
+@mastersthesis{gta_deeplabv3,
+  author = {Stefanos Pasios, Nikos Nikolaidis},
+  title = {CARLA2Real: a tool for reducing the sim2real gap in CARLA simulator},
+  school = {Aristotle University of Thessaloniki},
+  address = {Thessaloniki},
+  year = {2024},
+  url = {Unpublished},
+  note = {[Online]}
+}
+```
+
 

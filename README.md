@@ -5,7 +5,7 @@ The primary aim of this project is to generate a compatible dataset for training
 
 ## Installitation/Requirements
 
-The project was developed with Unreal Engine 5 version 5.3.2 on Windows 11 and can be executed by running the EPE.uproject after installing an Engine Version from the EPIC games launcher. The dataset extraction components and post-process materials can be integrated into any existing project by moving the `\Content\DatasetExtraction` directory to the `\Content\` directory of another Unreal Engine project.
+The project was developed with Unreal Engine 5 version 5.3.2 on Windows 11 and can be executed by running the EPE.uproject after installing an Engine Version from the EPIC GAMES launcher. The dataset extraction components and post-process materials can be integrated into any existing project by moving the `\Content\DatasetExtraction` directory to the `\Content\` directory of another Unreal Engine project.
 
 To extract semantic information, Unreal Engine utilizes the Custom Stencil Buffer. To enable this feature, search for `Custom Depth-Stencil Pass` in the project settings and set from the drop-down box the `Enabled with Stencil option`.
 
@@ -20,15 +20,15 @@ We provide two actors that can be placed in any location of the world to start e
 
 The actors expose a set of parameters on the editor that can be parameterized:
 
-* ColorMatrix: The colors (RGB) for each semantic class.
-* MaxClasses: The maximum index of the available (defined) classes.
+* ColorMatrix: The RGB colors for each unique semantic class.
+* MaxClasses: The last index of the available (defined) classes.
 * width: The desired width of the exported (PNG) images.
 * height: The desired height of the exported (PNG) images.
-* Frame Counter: The index that the component will start counting from.
+* Frame Counter: The index where the actor will start counting from when exporting frames.
 * Export GBuffers?: Whether the actor should also export all the GBuffers along with the rendered frame.
-* Capture Delay: The delay between each capture of the scene (this can be used to avoid data similarity).
-* Delay Between Captures: The delay between the different types of data in a single capture.
-* Dataset Path: The path to which the dataset will be exported.
+* Capture Delay: The delay between each capture (set of Frame, G-Buffers, and Semantic Masks) of the scene.
+* Delay Between Captures: The delay between the extraction of each one-hot-encoded mask in a single capture.
+* Dataset Path: The destination directory path for exporting the dataset.
 
 ![example_parameters](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/91cf0643-e030-46d4-a041-99af511df97b)
 

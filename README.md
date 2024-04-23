@@ -61,8 +61,8 @@ python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
 If you used the code of this repository in a scientific publication or thesis, we would appreciate using the following citation:
 
 ```
-The thesis associated with this code has not yet been published. Please cite this repository if you use the code.
-@mastersthesis{gta_deeplabv3,
+The thesis associated with this code has not yet been published. Please cite this repository if you used the code.
+@mastersthesis{carla2real,
   author = {Stefanos Pasios, Nikos Nikolaidis},
   title = {CARLA2Real: a tool for reducing the sim2real gap in CARLA simulator},
   school = {Aristotle University of Thessaloniki},

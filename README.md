@@ -56,7 +56,7 @@ python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
 
 ![bloggif_65d63c082eb44](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/db40c8b7-a12c-45b5-ab29-513d22a0e301) ![bloggif_65d63d1caa554](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/d6ce82a0-e479-4691-99ec-bd73b3b6d968)
 
-### BibTeX Citation
+## BibTeX Citation
 
 If you used the code of this repository in a scientific publication or thesis, we would appreciate using the following citation:
 

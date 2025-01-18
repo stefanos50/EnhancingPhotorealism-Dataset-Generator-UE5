@@ -48,10 +48,6 @@ python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
 
 > ⚠️ **Warning**: `dataset_generator` currently supports only 8 semantic classes ([1,0,0],[1,1,0],[1,1,1],[1,0,1],[0,1,1],[0,1,0],[0,0,1],[0,0,0]).
 
-## Data Examples
-
-![image](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/76a048af-6127-479b-b4e3-52f93f9b2d77)
-
 ## Unreal Engine 5 Enhancing Photorealism Enhancement Examples
 
 ![Screenshot 2025-01-18 172908](https://github.com/user-attachments/assets/1e5517fb-3c81-46a8-87fc-e976b79137bb)

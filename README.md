@@ -54,7 +54,7 @@ python semantic_visualizer.py --image_path <path-to>/1.png --threshold 500
 
 ## Unreal Engine 5 Enhancing Photorealism Enhancement Examples
 
-![bloggif_65d63c082eb44](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/db40c8b7-a12c-45b5-ab29-513d22a0e301) ![bloggif_65d63d1caa554](https://github.com/stefanos50/EnhancingPhotorealism-Dataset-Generator-UE5/assets/36155283/d6ce82a0-e479-4691-99ec-bd73b3b6d968)
+![Screenshot 2025-01-18 172908](https://github.com/user-attachments/assets/1e5517fb-3c81-46a8-87fc-e976b79137bb)
 
 ## BibTeX Citation
 
